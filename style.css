@@ -9,14 +9,26 @@
     display: table;
     clear: both;
 }
-.pagine{
-    position: fixed;
-    top: 35px;
-    right: 15px;
-    
-    z-index: 10;
+body{
+    font-family: sans-serif;
 }
 
+a:hover{
+    background-color: yellow
+}
+a:active {
+    color: rgb(238, 173, 130);
+    font-size: 35px;
+    
+}
+.pagine{
+    position: fixed;
+    top: 40px;
+    right: 15px;
+    z-index: 20;
+    
+    
+}
    header ul li a{
     text-decoration: none;
     list-style-type: none;
@@ -25,20 +37,27 @@
   header ul li{
     display: inline;
  }
+
+
  .numero-1{
+    
      padding: 25px;
      width: 100px;
      background-color: white;
      border-radius: 70%;
      color: black;
+     text-shadow: 5px 5px 10px black;
+     font-size: 25px;
  }
 
 
-.contenitore-1 {
+
+.contenitore-1{
     position: relative;
     height: 100vh;
     width: 100vw; 
     background-color: red;
+    box-shadow: inset 0px -2px 20px 20px #b4dd1e;
 }
 .container {
     position: absolute;
@@ -48,21 +67,26 @@
 }
 
 .contenitore-2{
+    
     height: 100vh;
     width: 100vw; 
     position: relative;
     background-color: rgb(0, 255, 0);
+    box-shadow: inset 0px -2px 20px 20px #59e6e6;
 }
 
 .contenitore-3{
+    
     height: 100vh;
     width: 100vw; 
     position: relative;
     background-color: rgb(217, 255, 0);
+    box-shadow: inset 0px -2px 20px 20px #111013;
 }
 h1{
     text-align: center;
     color: yellow;
+    
 }
 .text{
     color:green
